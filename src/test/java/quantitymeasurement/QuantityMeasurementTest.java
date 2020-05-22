@@ -13,4 +13,11 @@ public class QuantityMeasurementTest {
         boolean isEqual = this.quantityMeasurement.compare(value1, value2);
         Assert.assertEquals(true, isEqual);
     }
+
+    @Test
+    public void givenNullValue_WhenNotEqual_ReturnFalse() {
+        Unit value1 = new Unit(0);
+        boolean isEqual = this.quantityMeasurement.compare(value1, null);
+        Assert.assertEquals(false, isEqual);
+    }
 }

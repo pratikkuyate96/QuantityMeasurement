@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="quantitymeasurement.QuantityMeasurementTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-22T04:18:55" hostname="HP" time="0.119">
+<testsuite name="quantitymeasurement.QuantityMeasurementTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-22T04:29:09" hostname="HP" time="0.017">
   <properties/>
-  <testcase name="givenFeetValue_WhenEqual_ReturnTrue" classname="quantitymeasurement.QuantityMeasurementTest" time="0.119"/>
+  <testcase name="givenFeetValue_WhenEqual_ReturnTrue" classname="quantitymeasurement.QuantityMeasurementTest" time="0.012"/>
+  <testcase name="givenNullValue_WhenNotEqual_ReturnFalse" classname="quantitymeasurement.QuantityMeasurementTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
